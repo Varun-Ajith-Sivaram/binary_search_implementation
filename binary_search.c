@@ -2,7 +2,7 @@
 
 #define size 10 //size of array is initialized to 10
 
-int sort(int[]);    //function to sort the array in increasing order
+void sort(int[]);    //function to sort the array in increasing order
 
 void main()
 {
@@ -58,7 +58,7 @@ void main()
 
 
 
-int sort(int a[])
+void sort(int a[])
 {
     int temp;
     
@@ -74,6 +74,4 @@ int sort(int a[])
             }
         }
     }
-    
-    return(a[size]);
 }
