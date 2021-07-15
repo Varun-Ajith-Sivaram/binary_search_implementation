@@ -1,2 +1,2 @@
-# binary-search-implementation
+# Binary Search Implementation
 C program for implementing binary search.
